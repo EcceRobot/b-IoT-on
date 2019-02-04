@@ -1,9 +1,7 @@
 /*******************************************************************
-    An example of bot that receives commands and turns on and off
-    an relay.
- *                                                                 *
-    written by Giacarlo Bacchio (Gianbacchio on Github)
-    adapted by Brian Lough
+Thanks to                                         *
+        Giacarlo Bacchio (Gianbacchio on Github)
+        Brian Lough
  *******************************************************************/
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
