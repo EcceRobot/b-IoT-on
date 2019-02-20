@@ -3,6 +3,7 @@ Thanks to                                         *
         Giacarlo Bacchio (Gianbacchio on Github)
         Brian Lough
  *******************************************************************/
+
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
@@ -15,8 +16,6 @@ char password[] = "xxxxxxxxxxxxxxxxx"; // your network key
 // Initialize Telegram BOT
 #define BOTtoken "xxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxx"  // your Bot Token (Get from Botfather)
 String myUserID = "xxxxxxxxxxxxxxxxx";
-
-
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
@@ -96,16 +95,13 @@ void handleNewMessages(int numNewMessages) {
         welcome += "\nSERVO\n";
         welcome += "/push      the servo pushes the button\n";
         welcome += "\nADVANCED\n";
-        welcome += "/ngul      special function\n";
+              
+              
         bot.sendMessage(chat_id, welcome, "");
         //bot.sendMessage(chat_id, welcome, "Markdown");
       }
-
-      if(text == "/ngul"){
-        bot.sendMessage(chat_id, "a te", "");
-        }
     } else {
-      bot.sendMessage(chat_id, "e tu chi minchia sei?", "");
+      bot.sendMessage(chat_id, "utente sconosciuto", "");
         
       }
   }
