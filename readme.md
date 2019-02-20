@@ -1,4 +1,4 @@
-# Arduino MKR 1000
+# Arduino MKR 1010
 https://store.arduino.cc/arduino-mkr-wifi-1010
 # Telegram Bot
 https://core.telegram.org/bots
