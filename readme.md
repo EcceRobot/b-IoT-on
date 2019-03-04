@@ -56,12 +56,10 @@ void loop() {
 
     Serial.println(myRead);
     if (myRead == "ON") {
-      Serial.println("ACCESO");
       digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
     }
 
     if (myRead == "OFF") {
-      Serial.println("ACCESO");
       digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
     }
   }
