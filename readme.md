@@ -1,5 +1,6 @@
 # Arduino MKR 1010
 https://store.arduino.cc/arduino-mkr-wifi-1010
+https://www.arduino.cc/en/Guide/MKRWiFi1010 
 # Telegram Bot
 https://core.telegram.org/bots
 # Relè
