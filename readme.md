@@ -38,6 +38,7 @@ Il nostro Arduino, opportunamente programmato, svolgerà dei compiti dopo aver r
 Esempio comunicazione Seriale.
 Modifichiamo l'esempio Blink per effettare delle operazioni in corrispondenza di lettura stringhe
 
+```java
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -66,3 +67,4 @@ void loop() {
   }
   
 }
+```
