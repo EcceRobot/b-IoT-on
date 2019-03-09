@@ -135,7 +135,11 @@ void loop() {
 ```
 
 
+Quindi siamo capaci di far compiere delle operazioni all'Arduino in funzione di alcuni messaggi testuali inviati.
 
+Adesso ci basta cambiare il mezzo di trasmissione dei messaggi:
+
+non più la comunicazione seriale, ma un messaggio __Telegram__.
 
 
 
