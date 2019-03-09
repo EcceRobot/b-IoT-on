@@ -1,13 +1,6 @@
-
-
-
 # MKR Family
 
 ![](arrow_comparison_mkr_and_uno_2.jpg) 
-
-
-https://static4.arrow.com/-/media/arrow/images/miscellaneous/0/0518_comparison_mkr_and_uno_2.jpg?la=en&hash=14750A93DBD14A11E58EB7B2491EF137F6AADE5A
-
 
 ## In origine
 https://store.arduino.cc/arduino-mkrzero
