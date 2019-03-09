@@ -39,6 +39,38 @@ https://store.arduino.cc/mkr-vidor-4000
 
 ![](Diagram1.png)
 
+Esempio comunicazione Seriale.
+Modifichiamo l'esempio Blink per effettare delle operazioni in corrispondenza di lettura stringhe
+
+```java
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+
+  if (Serial.available() > 0) {
+
+    String myRead = Serial.readStringUntil('\r');
+
+    Serial.println(myRead);
+    if (myRead == "ON") {
+      digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+    }
+
+    if (myRead == "OFF") {
+      digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+    }
+  }
+  
+}
+```
+
 
 https://store.arduino.cc/arduino-mkr-wifi-1010
 
@@ -89,34 +121,4 @@ Sarà una conversazione in cui scriveremo delle parole chiave che verranno lette
 Il nostro Arduino, opportunamente programmato, svolgerà dei compiti dopo aver riconosciuto tali parole chiave.
 
 
-Esempio comunicazione Seriale.
-Modifichiamo l'esempio Blink per effettare delle operazioni in corrispondenza di lettura stringhe
 
-```java
-// the setup function runs once when you press reset or power the board
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-  Serial.begin(9600);
-}
-
-// the loop function runs over and over again forever
-void loop() {
-
-
-  if (Serial.available() > 0) {
-
-    String myRead = Serial.readStringUntil('\r');
-
-    Serial.println(myRead);
-    if (myRead == "ON") {
-      digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-    }
-
-    if (myRead == "OFF") {
-      digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-    }
-  }
-  
-}
-```
