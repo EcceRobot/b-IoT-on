@@ -3,7 +3,11 @@
 
 # MKR Family
 
-![](https://static4.arrow.com/-/media/arrow/images/miscellaneous/0/0518_comparison_mkr_and_uno_2.jpg) 
+![](https://static4.arrow.com/-/media/arrow/images/miscellaneous/0/0518_comparison_mkr_and_uno_2.jpg?la=en&hash=14750A93DBD14A11E58EB7B2491EF137F6AADE5A) 
+
+
+https://static4.arrow.com/-/media/arrow/images/miscellaneous/0/0518_comparison_mkr_and_uno_2.jpg?la=en&hash=14750A93DBD14A11E58EB7B2491EF137F6AADE5A
+
 
 ## In origine
 https://store.arduino.cc/arduino-mkrzero
@@ -27,15 +31,18 @@ https://store.arduino.cc/mkr-wifi-1010
 ## Altri membri della famiglia
 
 https://store.arduino.cc/arduino-mkrfox1200
+
 https://store.arduino.cc/mkr-wan-1300
+
 https://store.arduino.cc/mkr-gsm-1400
+
 https://store.arduino.cc/arduino-mkr-nb-1500
+
 https://store.arduino.cc/mkr-vidor-4000
 
 
 
-
-# Arduino MKR 1010
+# Torniamo a noi
 
 https://store.arduino.cc/arduino-mkr-wifi-1010
 
