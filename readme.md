@@ -52,6 +52,7 @@ https://store.arduino.cc/mkr-wifi-1010
 
 ![](https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/b/abx00023_iso.jpg)
 
+
 ## Altri membri della famiglia
 
 https://store.arduino.cc/arduino-mkrfox1200
@@ -66,7 +67,7 @@ https://store.arduino.cc/mkr-vidor-4000
 
 
 
-# Torniamo a noi
+# Prima facciamo funzionare le _Things_, poi penseremo all'_Internet_
 
 ![](Diagram1.png)
 
@@ -202,18 +203,14 @@ Come vediamo non ci risponde.
 
 Lanciamo Arduino e diamo al Bot delle abilità.
 
-Per prima cosa scarichiamo la libreria   Serial.println("");
-  Serial.println("");
-
-
-
-
-https://store.arduino.cc/arduino-mkr-wifi-1010
+Per prima cosa scarichiamo la libreria WifiNINA, del tutto simile alla libreria Wifi, ma realizzata appositente per il modulo Wifi NINA montato sul nostro Arduino MKR 1010. 
 
 https://www.arduino.cc/en/Guide/MKRWiFi1010 
 
-
 https://www.arduino.cc/en/Reference/WiFiNINA
+
+
+Lanciamo un paio di esempi per prendere dimestichezza con le funzionalità del WiFi. 
 
 https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
 
@@ -223,7 +220,9 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiPing
 
 
 
+
+
 # Relè
-https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif
+![](https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif)
 
 
