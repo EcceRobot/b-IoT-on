@@ -150,6 +150,21 @@ Per farlo dobbiamo inviare una richiesta ad un superbot, cioè __BotFather__.
 Per comodità possiamo usare __Telegram Web__:
 https://web.telegram.org/
 
+adesso cerchiamo BotFather
+
+https://telegram.me/botfather
+
+e creiamo un bot come descritto qui:
+
+https://core.telegram.org/bots#6-botfather
+
+
+Adesso ciascuno di noi ha un proprio interlocutore.
+Cerchiamolo!
+
+
+
+
 https://github.com/EcceRobot/b-IoT-on/upload
 
 https://store.arduino.cc/arduino-mkr-wifi-1010
