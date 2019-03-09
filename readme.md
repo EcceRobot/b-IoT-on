@@ -226,6 +226,30 @@ Check result: NOT PASSED
 
 * FirmwareUpdate.ino
 
+    1. Download and install the hourly Arduino IDE build.
+    
+    2. Launch the hourly IDE release and use the IDE's library manager (Sketch -> Include Library -> Manage Libraries ...) to install/update the following libraries: WiFiNINA, ArduinoBLE
+    
+    3. Plug in the MKR WiFi 1010 board into your PC with a USB cable.
+    
+    4. Select MKR WiFi 1010 as the board and it's serial port in the Tools menu of the IDE.
+    
+    5. Open the WiFiNINA Firmware Updater example sketch: File -> Examples -> WiFiNINA -> Tools -> FirmwareUpdater
+    
+    6. Upload the sketch onto your board.
+    
+    7. If the Serial Monitor is open, close it.
+    
+    8. Launch the "WiFi 101 / NINA Firmware Updater" from the Tools menu of the IDE
+    
+    9. Select the Serial Port for your board. The latest version of firmware for the NINA will be automattically selected.
+    
+    10. Click the "Update Firmware" button, and wait for the update to complete.
+    
+    11. Close the Updater.
+    
+    12. You can check the version of firmware loaded on the NINA using the Check Version example of the WiFiNINA library: File -> Examples -> WiFiNINA -> Tools -> CheckVersion example sketch.
+
 * CheckFirmwareVersion.ino
 
 Lanciamo un paio di esempi per prendere dimestichezza con le funzionalità del WiFi. 
