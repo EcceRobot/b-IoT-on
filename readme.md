@@ -208,6 +208,26 @@ https://www.arduino.cc/en/Guide/MKRWiFi1010
 https://www.arduino.cc/en/Reference/WiFiNINA
 
 
+__CONTROLLO PRELIMINARE FIRMWARE E RELEASE LIBRERIA__
+
+* CheckFirmwareVersion.ino
+
+```
+WiFiNINA firmware check.
+
+Firmware version installed: 1.0.0
+Latest firmware version available : 1.2.0
+
+Check result: NOT PASSED
+ - The firmware version on the module do not match the
+   version required by the library, you may experience
+   issues or failures.
+```
+
+* FirmwareUpdate.ino
+
+* CheckFirmwareVersion.ino
+
 Lanciamo un paio di esempi per prendere dimestichezza con le funzionalità del WiFi. 
 
 https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
