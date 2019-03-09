@@ -259,8 +259,13 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
 https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiPing
 
 
+# Libreria TelegramBot
 
+https://github.com/CasaJasmina/TelegramBot-Library
 
+__NB:__ Richiede __ArduinoJson 5__ e non ArduinoJson 6
+
+https://github.com/bblanchon/ArduinoJson
 
 
 
