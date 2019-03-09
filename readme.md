@@ -1,3 +1,34 @@
+# Perchè?
+
+* Vorrei accendere una lampada a distanza.
+* Vorrei scaldare casa caldaia mentre sto tornando da un viaggio.
+* Voglio far partire la lavatrice un'ora prima di rientrare a casa.
+* Vorrei conoscere la temperatura di casa.
+
+## Perchè Telegram?
+
+Perchè con WhatsApp non si può.
+
+Perchè Telegram mette a disposizione delle API per parlare con i BOT.
+
+Cioè mette a disposizione dei programmatori degli strumenti molto utili. E noi li useremo per realizzare dei Bot.
+
+## Cosa sono i Bot?
+
+Sono dei servizi automatizzati, programmati con delle logiche più o meno complesse.
+
+Cosa sono i BOT in Telegram?
+
+Sono degli interlocutori virtuali.
+
+## Cosa sarà il nostro BOT?
+
+Sarà una conversazione in cui scriveremo delle parole chiave che verranno lette da una applicazione Arduino attraverso delle librerie.
+
+Il nostro Arduino, opportunamente programmato, svolgerà dei compiti dopo aver riconosciuto tali parole chiave.
+
+Alla fine del compito, risponderà con un messaggio di conferma.
+
 # MKR Family
 
 ![](arrow_comparison_mkr_and_uno_2.jpg) 
@@ -152,6 +183,8 @@ https://web.telegram.org/
 
 adesso cerchiamo BotFather
 
+![](https://cdn-images-1.medium.com/max/698/1*oelrrJ132Ta6sp91Xo-xEQ.pnghttps://cdn-images-1.medium.com/max/698/1*oelrrJ132Ta6sp91Xo-xEQ.png)
+
 https://telegram.me/botfather
 
 e creiamo un bot come descritto qui:
@@ -160,12 +193,20 @@ https://core.telegram.org/bots#6-botfather
 
 
 Adesso ciascuno di noi ha un proprio interlocutore.
+
 Cerchiamolo!
 
+...
+
+Come vediamo non ci risponde.
+
+Lanciamo Arduino e diamo al Bot delle abilità.
+
+Per prima cosa scarichiamo la libreria   Serial.println("");
+  Serial.println("");
 
 
 
-https://github.com/EcceRobot/b-IoT-on/upload
 
 https://store.arduino.cc/arduino-mkr-wifi-1010
 
@@ -179,25 +220,6 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
 https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiPing
 
 
-
-# Telegram Bot
-https://core.telegram.org/bots
-
-
-
-Perchè Telegram?
-Perchè con WhatsApp non si può.  bIOTon/Untitled Diagram.png 
-Perchè Telegram mette a disposizione delle API per parlare con i BOT.
-
-Cosa sono i BOT?
-Sono dei servizi automatizzati, programmati con delle logiche più o meno complesse.
-
-Cosa sono i BOT in Telegram?
-Sono degli interlocutori virtuali.
-
-Cosa sarà il nostro BOT?
-Sarà una conversazione in cui scriveremo delle parole chiave che verranno lette da una applicazione Arduino attraverso delle librerie.
-Il nostro Arduino, opportunamente programmato, svolgerà dei compiti dopo aver riconosciuto tali parole chiave.
 
 
 
