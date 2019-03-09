@@ -1,9 +1,9 @@
 # Perchè?
 
-* Vorrei accendere una lampada a distanza.
-* Vorrei scaldare casa caldaia mentre sto tornando da un viaggio.
-* Voglio far partire la lavatrice un'ora prima di rientrare a casa.
-* Vorrei conoscere la temperatura di casa.
+* Vorrei accendere una lampada a distanza
+* Vorrei scaldare casa caldaia mentre sto tornando da un viaggio
+* Voglio far partire la lavatrice un'ora prima di rientrare a casa
+* Vorrei conoscere la temperatura di casa
 
 ## Perchè Telegram?
 
@@ -11,15 +11,11 @@ Perchè con WhatsApp non si può.
 
 Perchè Telegram mette a disposizione delle API per parlare con i BOT.
 
-Cioè mette a disposizione dei programmatori degli strumenti molto utili. E noi li useremo per realizzare dei Bot.
+Cioè mette a disposizione dei programmatori degli strumenti molto utili. E noi li useremo per far parlare il nostro Bot.
 
 ## Cosa sono i Bot?
 
 Sono dei servizi automatizzati, programmati con delle logiche più o meno complesse.
-
-Cosa sono i BOT in Telegram?
-
-Sono degli interlocutori virtuali.
 
 ## Cosa sarà il nostro BOT?
 
@@ -175,11 +171,13 @@ non più la comunicazione seriale, ma un messaggio __Telegram__.
 
 
 Costruiamo il nostro nuovo canale di comunicazione.
+
 Per prima cosa creiamo il nostro finto interlocutore, il __Bot__.
 
 Per farlo dobbiamo inviare una richiesta ad un superbot, cioè __BotFather__.
 
 Per comodità possiamo usare __Telegram Web__:
+
 https://web.telegram.org/
 
 adesso cerchiamo BotFather
