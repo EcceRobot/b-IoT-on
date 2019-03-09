@@ -1,4 +1,7 @@
 # Arduino MKR 1010
+
+!(https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/b/abx00023_iso.jpg)
+
 https://store.arduino.cc/arduino-mkr-wifi-1010
 
 https://www.arduino.cc/en/Guide/MKRWiFi1010 
