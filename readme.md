@@ -20,8 +20,16 @@ https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.1
 # Servomotore
 https://www.arduino.cc/en/reference/servo 
 ## PWM
+PWM per controllare luminosità di un LED
+
 ![PWM per controllare luminosità di un LED](https://cdn-images-1.medium.com/max/1600/0*8aKMKfT-FwswIeyx.)
+
+PWM per controllare posizione di un servo
+
 ![PWM per controllare posizione di un servo](https://backyardbrains.com/experiments/img/Graphs_PWM_web.jpg)
+
+PWM per controllare movimento di un servo
+
 ![PWM per controllare movimento di un servo](http://archive.fabacademy.org/fabacademy2016/fablabshangai/students/96/Week13/servo.gif)
 
 
