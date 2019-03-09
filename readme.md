@@ -15,7 +15,11 @@ https://core.telegram.org/bots
 # Relè
 https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif
 # Servomotore
+https://www.arduino.cc/en/reference/servo 
+## PWM
+https://cdn-images-1.medium.com/max/1600/0*8aKMKfT-FwswIeyx.
 https://backyardbrains.com/experiments/img/Graphs_PWM_web.jpg
+http://archive.fabacademy.org/fabacademy2016/fablabshangai/students/96/Week13/servo.gif
 
 
 
