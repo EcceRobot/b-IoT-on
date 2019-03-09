@@ -142,8 +142,13 @@ Adesso ci basta cambiare il mezzo di trasmissione dei messaggi:
 non più la comunicazione seriale, ma un messaggio __Telegram__.
 
 
+Costruiamo il nostro nuovo canale di comunicazione.
+Per prima cosa creiamo il nostro finto interlocutore, il __Bot__.
 
+Per farlo dobbiamo inviare una richiesta ad un superbot, cioè __BotFather__.
 
+Per comodità possiamo usare __Telegram Web__:
+https://web.telegram.org/
 
 https://github.com/EcceRobot/b-IoT-on/upload
 
@@ -162,8 +167,6 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiPing
 
 # Telegram Bot
 https://core.telegram.org/bots
-# Relè
-https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif
 
 
 
@@ -181,5 +184,9 @@ Cosa sarà il nostro BOT?
 Sarà una conversazione in cui scriveremo delle parole chiave che verranno lette da una applicazione Arduino attraverso delle librerie.
 Il nostro Arduino, opportunamente programmato, svolgerà dei compiti dopo aver riconosciuto tali parole chiave.
 
+
+
+# Relè
+https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif
 
 
