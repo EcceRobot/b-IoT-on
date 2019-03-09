@@ -1,3 +1,4 @@
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 # Arduino MKR 1010
 https://store.arduino.cc/arduino-mkr-wifi-1010
 
@@ -20,9 +21,9 @@ https://www.arduino.cc/en/reference/servo
 ![PWM on LED](https://cdn-images-1.medium.com/max/1600/0*8aKMKfT-FwswIeyx.)
 
 
-!(https://cdn-images-1.medium.com/max/1600/0*8aKMKfT-FwswIeyx.)
-!(https://backyardbrains.com/experiments/img/Graphs_PWM_web.jpg)
-!(http://archive.fabacademy.org/fabacademy2016/fablabshangai/students/96/Week13/servo.gif)
+![](https://cdn-images-1.medium.com/max/1600/0*8aKMKfT-FwswIeyx.)
+![](https://backyardbrains.com/experiments/img/Graphs_PWM_web.jpg)
+![](http://archive.fabacademy.org/fabacademy2016/fablabshangai/students/96/Week13/servo.gif)
 
 
 
