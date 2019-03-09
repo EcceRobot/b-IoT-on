@@ -37,7 +37,7 @@ https://store.arduino.cc/mkr-vidor-4000
 
 # Torniamo a noi
 
-![]("Untitled Diagram.png")
+![](Diagram1.png)
 
 
 https://store.arduino.cc/arduino-mkr-wifi-1010
