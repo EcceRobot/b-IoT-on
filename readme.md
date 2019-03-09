@@ -1,16 +1,30 @@
+
+
+
 # MKR Family
+
+![](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiCy4eNkPXgAhVS-6QKHVw4BhsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.arrow.com%2Fen%2Fresearch-and-events%2Farticles%2Farduino-uno-vs-mkr-series&psig=AOvVaw0JvgkbCAaw5vRPY2ZKMYd7&ust=1552223135046085)
 
 ## In origine
 https://store.arduino.cc/arduino-mkrzero
 
+![](https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/A/B/ABX00012_iso_02_2.jpg)
+
 ## WiFi
 https://store.arduino.cc/arduino-mkr1000
+
+![](https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/A/B/ABX00004_iso_2.jpg)
+
 https://store.arduino.cc/arduino-mkr1000-with-headers-mounted
+
+![](https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/b/abx00011_iso.jpg)
 
 ## Evoluzione WIFi
 https://store.arduino.cc/mkr-wifi-1010
 
-### Altri membri della famiglia
+![](https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/b/abx00023_iso.jpg)
+
+## Altri membri della famiglia
 
 https://store.arduino.cc/arduino-mkrfox1200
 https://store.arduino.cc/mkr-wan-1300
@@ -22,8 +36,6 @@ https://store.arduino.cc/mkr-vidor-4000
 
 
 # Arduino MKR 1010
-
-![](https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/b/abx00023_iso.jpg)
 
 https://store.arduino.cc/arduino-mkr-wifi-1010
 
