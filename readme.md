@@ -72,22 +72,6 @@ void loop() {
 ```
 
 
-https://store.arduino.cc/arduino-mkr-wifi-1010
-
-https://www.arduino.cc/en/Guide/MKRWiFi1010 
-
-
-https://www.arduino.cc/en/Reference/WiFiNINA
-
-https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
-
-https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiPing
-
-
-# Telegram Bot
-https://core.telegram.org/bots
-# Relè
-https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif
 # Servomotore
 https://www.arduino.cc/en/reference/servo 
 ## PWM
@@ -103,6 +87,79 @@ PWM per controllare movimento di un servo
 
 ![PWM per controllare movimento di un servo](http://archive.fabacademy.org/fabacademy2016/fablabshangai/students/96/Week13/servo.gif)
 
+```java
+// modifichiamo esempio Arduino - knob
+// per far posizionare servo con comandi attraverso comunicazione seriale
+
+#include <Servo.h>
+
+Servo myservo;                                // create servo object to control a servo
+
+int servoPin = 13;                            // analog pin used to connect the potentiometer
+
+void setup() {
+  
+  pinMode(LED_BUILTIN, OUTPUT);               // initialize digital pin LED_BUILTIN as an output.
+  Serial.begin(9600);
+  myservo.attach(13);                         // attaches the servo on pin 9 to the servo object
+  myservo.write(0);                           // sets the servo position
+  
+}
+
+void loop() {
+
+  if (Serial.available() > 0) {
+
+    String myRead = Serial.readStringUntil('\r');
+
+    Serial.println(myRead);
+    if (myRead == "ON") {
+      myservo.write(90);                     // sets the servo position
+    }
+
+    if (myRead == "OFF") {
+      myservo.write(0);                     // sets the servo position
+    }
+  
+  if (myRead == "PUSH") {
+      myservo.write(0);                     // sets the servo position
+      delay(1000);
+      myservo.write(90);                    // sets the servo position
+      delay(1000);
+      myservo.write(0);                     // sets the servo position
+    }
+
+  }
+  
+}
+```
+
+
+
+
+
+
+
+
+https://github.com/EcceRobot/b-IoT-on/upload
+
+https://store.arduino.cc/arduino-mkr-wifi-1010
+
+https://www.arduino.cc/en/Guide/MKRWiFi1010 
+
+
+https://www.arduino.cc/en/Reference/WiFiNINA
+
+https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
+
+https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiPing
+
+
+
+# Telegram Bot
+https://core.telegram.org/bots
+# Relè
+https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif
 
 
 
