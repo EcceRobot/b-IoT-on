@@ -200,7 +200,7 @@ https://web.telegram.org/
 
 Cerchiamo BotFather
 
-![](https://cdn-images-1.medium.com/max/698/1*oelrrJ132Ta6sp91Xo-xEQ.pnghttps://cdn-images-1.medium.com/max/698/1*oelrrJ132Ta6sp91Xo-xEQ.png)
+![](https://chatboten.com/wp-content/uploads/2017/03/telegram-bots-father.png)
 
 https://telegram.me/botfather
 
