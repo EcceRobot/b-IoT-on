@@ -17,15 +17,25 @@ Cioè mette a disposizione dei programmatori degli strumenti molto utili. E noi 
 
 Sono dei servizi automatizzati, programmati con delle logiche più o meno complesse.
 
-## Cosa sarà il nostro BOT?
+## Che forma avrà il nostro BOT?
 
-Sarà una conversazione in cui scriveremo delle parole chiave che verranno lette da una applicazione Arduino attraverso delle librerie.
+Ci sarà una conversazione in cui scriveremo delle parole chiave, che verranno lette da un Arduino attraverso delle apposite librerie.
 
 Il nostro Arduino, opportunamente programmato, svolgerà dei compiti dopo aver riconosciuto tali parole chiave.
 
-Alla fine del compito, risponderà con un messaggio di conferma.
+Dopo aver svolto delle operazioni, risponderà con un messaggio di conferma.
 
-# MKR Family
+# Cosa ci serve?
+
+* MKR WiFi 1010
+* Micro Servo SG90
+* Jumper Maschio/Maschio
+* Connessione WiFi
+* Smartphone + Telegram 
+* Cavo USB per programmazione/alimentazione
+* PC con installato Arduino
+
+# Scegliamo lo strumento giusto: MKR Family
 
 ![](arrow_comparison_mkr_and_uno_2.jpg) 
 
