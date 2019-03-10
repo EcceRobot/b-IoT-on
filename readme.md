@@ -1,9 +1,9 @@
 # Perchè?
 
 * Vorrei accendere una lampada a distanza
-* Vorrei scaldare casa caldaia mentre sto tornando da un viaggio
-* Voglio far partire la lavatrice un'ora prima di rientrare a casa
-* Vorrei conoscere la temperatura di casa
+* Vorrei scaldare casa mentre sto tornando da un viaggio
+* Voglio far partire la lavatrice un po' prima di rientrare a casa
+* Vorrei conoscere la temperatura di casa quando sono lontano
 
 ## Perchè Telegram?
 
