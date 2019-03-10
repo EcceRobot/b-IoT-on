@@ -79,17 +79,14 @@ https://store.arduino.cc/mkr-vidor-4000
 
 # Fase 1: _Things_
 
-Potrebbe essere necessario installare 
+Potrebbe essere necessario installare un _package_ per gestire la MKR1010:
 
 ![](https://www.arduino.cc/en/uploads/Guide/BoardMgr_MKRWiFi1010.jpg)
 
 dopodichè, possimo lanciare il nostro primo esempio: Blink.
 
 
-Esempio comunicazione Seriale.
-
 Modifichiamo l'esempio Blink per effettare delle operazioni in corrispondenza di lettura stringhe.
-
 
 ```java
 // the setup function runs once when you press reset or power the board
@@ -123,6 +120,7 @@ void loop() {
 
 # Servomotore
 https://www.arduino.cc/en/reference/servo 
+
 ## PWM
 PWM per controllare luminosità di un LED
 
@@ -182,15 +180,13 @@ void loop() {
   
 }
 ```
-
-# Fase 2: _Internet_
-
 Quindi siamo capaci di far compiere delle operazioni all'Arduino in funzione di alcuni messaggi testuali inviati.
 
 Adesso ci basta cambiare il mezzo di trasmissione dei messaggi:
 
 non più la comunicazione seriale, ma un messaggio __Telegram__.
 
+# Fase 2: _Internet_
 
 Costruiamo il nostro nuovo canale di comunicazione.
 
@@ -202,28 +198,35 @@ Per comodità possiamo usare __Telegram Web__:
 
 https://web.telegram.org/
 
-adesso cerchiamo BotFather
+Cerchiamo BotFather
 
 ![](https://cdn-images-1.medium.com/max/698/1*oelrrJ132Ta6sp91Xo-xEQ.pnghttps://cdn-images-1.medium.com/max/698/1*oelrrJ132Ta6sp91Xo-xEQ.png)
 
 https://telegram.me/botfather
 
-e creiamo un bot come descritto qui:
+e creiamo un bot come descritto nella documentazione ufficiale Telegram:
 
 https://core.telegram.org/bots#6-botfather
 
 
+
 Adesso ciascuno di noi ha un proprio interlocutore.
 
-Cerchiamolo!
+Scriviamogli qualcosa!
+
+...
+
+...
 
 ...
 
 Come vediamo non ci risponde.
 
+
+
 Lanciamo Arduino e diamo al Bot delle abilità.
 
-Per prima cosa scarichiamo la libreria WifiNINA, del tutto simile alla libreria Wifi, ma realizzata appositente per il modulo Wifi NINA montato sul nostro Arduino MKR 1010. 
+Per prima cosa scarichiamo la libreria WifiNINA, del tutto simile alla libreria Wifi, ma realizzata appositente per il modulo NINA montato sul nostro Arduino MKR 1010. 
 
 https://www.arduino.cc/en/Guide/MKRWiFi1010 
 
