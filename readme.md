@@ -72,13 +72,24 @@ https://store.arduino.cc/arduino-mkr-nb-1500
 https://store.arduino.cc/mkr-vidor-4000
 
 
-
-# Prima facciamo funzionare le _Things_, poi penseremo all'_Internet_
+# Scomponiamo il problema 
 
 ![](Diagram1.png)
 
+
+# Fase 1: _Things_
+
+Potrebbe essere necessario installare 
+
+![](https://www.arduino.cc/en/uploads/Guide/BoardMgr_MKRWiFi1010.jpg)
+
+dopodichè, possimo lanciare il nostro primo esempio: Blink.
+
+
 Esempio comunicazione Seriale.
-Modifichiamo l'esempio Blink per effettare delle operazioni in corrispondenza di lettura stringhe
+
+Modifichiamo l'esempio Blink per effettare delle operazioni in corrispondenza di lettura stringhe.
+
 
 ```java
 // the setup function runs once when you press reset or power the board
@@ -172,6 +183,7 @@ void loop() {
 }
 ```
 
+# Fase 2: _Internet_
 
 Quindi siamo capaci di far compiere delle operazioni all'Arduino in funzione di alcuni messaggi testuali inviati.
 
@@ -279,7 +291,15 @@ https://github.com/bblanchon/ArduinoJson
 
 
 
-# Relè
+# Fase 3: _Internet of Things_
+
+
+# Extra
+
+## Relè
 ![](https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif)
+
+## DB18B20
+
 
 
