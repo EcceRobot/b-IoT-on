@@ -292,6 +292,9 @@ __NB:__ Richiede __ArduinoJson 5__ e non ArduinoJson 6
 
 https://github.com/bblanchon/ArduinoJson
 
+# Schema connessione
+
+![](ConnectionScheme.png)
 
 
 # Fase 3: _Internet of Things_
