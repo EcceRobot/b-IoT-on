@@ -188,6 +188,8 @@ non più la comunicazione seriale, ma un messaggio __Telegram__.
 
 # Fase 2: _Internet_
 
+## Creiamo il Bot
+
 Costruiamo il nostro nuovo canale di comunicazione.
 
 Per prima cosa creiamo il nostro finto interlocutore, il __Bot__.
@@ -222,7 +224,7 @@ Scriviamogli qualcosa!
 
 Come vediamo non ci risponde.
 
-
+## Funzionalità WiFi della nostra scheda MKR 1010
 
 Lanciamo Arduino e diamo al Bot delle abilità.
 
@@ -233,7 +235,7 @@ https://www.arduino.cc/en/Guide/MKRWiFi1010
 https://www.arduino.cc/en/Reference/WiFiNINA
 
 
-__CONTROLLO PRELIMINARE FIRMWARE E RELEASE LIBRERIA__
+__NB: CONTROLLO PRELIMINARE FIRMWARE E RELEASE LIBRERIA__
 
 * CheckFirmwareVersion.ino
 
@@ -277,6 +279,8 @@ Check result: NOT PASSED
 
 * CheckFirmwareVersion.ino
 
+## Primi passi con il WiFi
+
 Lanciamo un paio di esempi per prendere dimestichezza con le funzionalità del WiFi. 
 
 https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
@@ -284,17 +288,23 @@ https://www.arduino.cc/en/Tutorial/WiFiNINAScanNetworks
 https://www.arduino.cc/en/Tutorial/WiFiNINAWiFiPing
 
 
-# Libreria TelegramBot
 
-https://github.com/CasaJasmina/TelegramBot-Library
+## Libreria UniversalTelegramBot
 
-__NB:__ Richiede __ArduinoJson 5__ e non ArduinoJson 6
+https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
 
-https://github.com/bblanchon/ArduinoJson
+E' il fork di una libreria già esitente (https://github.com/Gianbacchio/ESP8266-TelegramBot) e si ispira anche ad una seconda libreria (https://github.com/CasaJasmina/TelegramBot-Library).
 
-# Schema connessione
+## Schema connessione
 
 ![](ConnectionScheme.png)
+
+
+## EchoBot
+
+Lanciamo un primo esempio e modifichiamolo ad hoc.
+
+https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/101/EchoBot/EchoBot.ino
 
 
 # Fase 3: _Internet of Things_
