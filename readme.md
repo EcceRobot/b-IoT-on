@@ -302,10 +302,30 @@ E' il fork di una libreria già esitente (https://github.com/Gianbacchio/ESP8266
 
 ## EchoBot
 
-Lanciamo un primo esempio e modifichiamolo ad hoc.
+Lanciamo un primo esempio, che non è per MKR1010, e modifichiamolo ad hoc.
 
 https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/101/EchoBot/EchoBot.ino
 
+Eliminiamo le due librerie non necessarie e inseiriamo la libreria WiFiNINA.h
+
+```java
+//#include <WiFiSSLClient.h>
+//#include <WiFi101.h>
+#include <WiFiNINA.h>
+#include <UniversalTelegramBot.h>
+
+```
+
+e inseriamo i nostri dati per completare:
+
+```
+// Initialize Wifi connection to the router
+char ssid[] = "xxxxxxxxxxxxxxxxxxxxxxxx";              // your network SSID (name)
+char password[] = "yyyyyyyyy";                              // your network key
+
+// Initialize Telegram BOT
+#define BOTtoken "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // your Bot Token (Get from Botfather)
+```
 
 # Fase 3: _Internet of Things_
 
