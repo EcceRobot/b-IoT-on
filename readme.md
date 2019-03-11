@@ -308,7 +308,7 @@ https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examp
 
 Eliminiamo le due librerie non necessarie e inseiriamo la libreria WiFiNINA.h
 
-```java
+```javascript
 //#include <WiFiSSLClient.h>
 //#include <WiFi101.h>
 #include <WiFiNINA.h>
