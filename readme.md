@@ -327,15 +327,18 @@ char password[] = "yyyyyyyyy";                              // your network key
 #define BOTtoken "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // your Bot Token (Get from Botfather)
 ```
 
+Analizziamo assieme il codice e facciamo un mash-up tra la nostra applicazione di controllo del servo e l'applicazione che ci permette di inviare messaggi di testo all'Arduino.
+
 # Fase 3: _Internet of Things_
 
 
-# Extra
 
-## Relè
+## Extra
+
+### Relè
 ![](https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif)
 
-## DB18B20
+### DB18B20
 
 
 
