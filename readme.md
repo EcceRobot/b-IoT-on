@@ -308,7 +308,7 @@ https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examp
 
 Eliminiamo le due librerie non necessarie e inseiriamo la libreria WiFiNINA.h
 
-```javascript
+```java
 //#include <WiFiSSLClient.h>
 //#include <WiFi101.h>
 #include <WiFiNINA.h>
@@ -318,7 +318,7 @@ Eliminiamo le due librerie non necessarie e inseiriamo la libreria WiFiNINA.h
 
 e inseriamo i nostri dati per completare:
 
-```
+```java
 // Initialize Wifi connection to the router
 char ssid[] = "xxxxxxxxxxxxxxxxxxxxxxxx";              // your network SSID (name)
 char password[] = "yyyyyyyyy";                              // your network key
