@@ -332,6 +332,8 @@ Analizziamo assieme il codice e facciamo un mash-up tra la nostra applicazione d
 # Fase 3: _Internet of Things_
 
 
+## Rendiamo più sicura la nostra applicazione
+
 
 ## Extra
 
