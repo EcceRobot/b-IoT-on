@@ -350,5 +350,5 @@ Analizziamo assieme il codice e facciamo un mash-up tra la nostra applicazione d
 
 ### DB18B20
 
-
+![](https://www.espruino.com/refimages/DS18B20_cable.jpg)
 
