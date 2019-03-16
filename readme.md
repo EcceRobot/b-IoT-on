@@ -34,7 +34,7 @@ Il nostro Arduino, opportunamente programmato, svolgerà dei compiti dopo aver r
 Dopo aver svolto delle operazioni, risponderà con un messaggio di conferma.
 
 # Cosa ci serve?
-
+ 
 * MKR WiFi 1010
 * Micro Servo SG90
 * Jumper Maschio/Maschio
