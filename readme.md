@@ -1,13 +1,10 @@
-# Perchè?
+# Comandare Arduino attraverso Telegram: perchè?
 
 * Vorrei accendere una lampada a distanza
-
-![](lamp.gif)
-
 * Vorrei scaldare casa mentre sto tornando da un viaggio
 * Voglio far partire la lavatrice un po' prima di rientrare a casa
 * Vorrei conoscere la temperatura di casa quando sono lontano
-* Ma nache tanto altro:
+* Ma anche tanto altro:
 
 ![](mug.gif)
 
@@ -339,16 +336,26 @@ Analizziamo assieme il codice e facciamo un mash-up tra la nostra applicazione d
 
 # Fase 3: _Internet of Things_
 
+Mettiamo insieme il nostro primo programma di comando del servo e il nostro EchoBot.
+
+Facciamo insieme.
+
+
+![](lamp.gif)
+
 
 ## Rendiamo più sicura la nostra applicazione
 
+Il bot deve accettare solo messaggi provenienti dal nostro account.
+
+Ma io chi sono?
 
 ## Extra
 
-### Relè
+### Comandiamo un relè
 ![](https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif)
 
-### DB18B20
+### Leggiamo la temperatura da un DB18B20
 
 ![](https://www.espruino.com/refimages/DS18B20_cable.jpg)
 
