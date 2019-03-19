@@ -153,7 +153,7 @@ void setup() {
   
   pinMode(LED_BUILTIN, OUTPUT);               // initialize digital pin LED_BUILTIN as an output.
   Serial.begin(9600);
-  myservo.attach(13);                         // attaches the servo on pin 9 to the servo object
+  myservo.attach(servoPin);                   // attaches the servo on pin 13 to the servo object
   myservo.write(0);                           // sets the servo position
   
 }
@@ -336,9 +336,10 @@ Analizziamo assieme il codice e facciamo un mash-up tra la nostra applicazione d
 
 # Fase 3: _Internet of Things_
 
-Mettiamo insieme il nostro primo programma di comando del servo e il nostro EchoBot.
+Mettiamo insieme il nostro primo programma di comando del servo e il nostro EchoBot:
 
-Facciamo insieme.
+
+
 
 
 ![](lamp.gif)
@@ -350,12 +351,33 @@ Il bot deve accettare solo messaggi provenienti dal nostro account.
 
 Ma io chi sono?
 
+Chiediamolo a IDbot, il quale, alla richiesta
+
+```
+/getid
+```
+
+risponderà con un codice numerico univoco che corrisponde al proprio utente.
+
+Inseriamo questa cifra per riconoscere il mittente all'interno del nostro programma:
+
+
+
+
 ## Extra
 
-### Comandiamo un relè
-![](https://s3-eu-west-1.amazonaws.com/rpf-futurelearn/how-computers-work/week_1/1.12-Relay.gif)
-
-### Leggiamo la temperatura da un DB18B20
+### Il Bot ci invia autonomamente informazioni sulla temperatura rilevata da un DB18B20
 
 ![](https://www.espruino.com/refimages/DS18B20_cable.jpg)
+
+Ogni volta che la temeratura rilevata dal sensore esce da una range prestabilito invieremo un messaggio.
+
+Come identifico il destinatario?
+
+Devo scoprire il valore del ChatID:
+
+https://www.emmecilab.net/come-trovare-lid-di-una-chat-telegram/
+
+Quindi avremo come risultato:
+
 
