@@ -338,7 +338,7 @@ Analizziamo assieme il codice e facciamo un mash-up tra la nostra applicazione d
 
 Mettiamo insieme il nostro primo programma di comando del servo e il nostro EchoBot:
 
-
+Bot_Servo.zip
 
 
 
@@ -359,9 +359,9 @@ Chiediamolo a IDbot, il quale, alla richiesta
 
 risponderà con un codice numerico univoco che corrisponde al proprio utente.
 
-Inseriamo questa cifra per riconoscere il mittente all'interno del nostro programma:
+Inseriamo questa cifra per riconoscere il mittente all'interno del nosBot_Temperature.ziptro programma:
 
-
+Bot_Servo_CheckID.zip
 
 
 ## Extra
@@ -380,4 +380,4 @@ https://www.emmecilab.net/come-trovare-lid-di-una-chat-telegram/
 
 Quindi avremo come risultato:
 
-
+Bot_Temperature.zip
