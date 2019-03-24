@@ -359,7 +359,7 @@ Chiediamolo a IDbot, il quale, alla richiesta
 
 risponderà con un codice numerico univoco che corrisponde al proprio utente.
 
-Inseriamo questa cifra per riconoscere il mittente all'interno del nosBot_Temperature.ziptro programma:
+Inseriamo questa cifra per riconoscere il mittente all'interno del nostro programma:
 
 https://github.com/EcceRobot/b-IoT-on/blob/master/Bot_Servo_CheckID.zip
 
@@ -370,7 +370,7 @@ https://github.com/EcceRobot/b-IoT-on/blob/master/Bot_Servo_CheckID.zip
 
 ![](https://www.espruino.com/refimages/DS18B20_cable.jpg)
 
-Ogni volta che la temeratura rilevata dal sensore esce da una range prestabilito invieremo un messaggio.
+Ogni volta che la temperatura rilevata dal sensore esce da una range prestabilito invieremo un messaggio.
 
 Come identifico il destinatario?
 
